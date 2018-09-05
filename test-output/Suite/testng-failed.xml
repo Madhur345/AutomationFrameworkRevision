@@ -1,28 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <test thread-count="5" name="chrometest(failed)" parallel="tests">
+  <test name="ChromeTest(failed)" parallel="tests">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="scripts.TestInvalidLogin">
+      <class name="scripts.TestVarifyProductVersion">
         <methods>
+          <include name="testProductVersion"/>
           <include name="closeApplication"/>
           <include name="openApplication"/>
-          <include name="testInvalid"/>
         </methods>
-      </class> <!-- scripts.TestInvalidLogin -->
+      </class> <!-- scripts.TestVarifyProductVersion -->
     </classes>
-  </test> <!-- chrometest(failed) -->
-  <test thread-count="5" name="firefoxtest(failed)" parallel="tests">
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="scripts.TestInvalidLogin">
-        <methods>
-          <include name="closeApplication"/>
-          <include name="openApplication"/>
-          <include name="testInvalid"/>
-        </methods>
-      </class> <!-- scripts.TestInvalidLogin -->
-    </classes>
-  </test> <!-- firefoxtest(failed) -->
+  </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

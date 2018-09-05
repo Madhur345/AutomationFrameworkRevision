@@ -6,39 +6,40 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class EnterTimeTrackPage {
-
 	@FindBy(xpath="//div[contains(text(),'Help')]")
 	WebElement helpMenu;
 
-	@FindBy(xpath ="//a[contains(text(),'About your actiTIME')]")
-	WebElement aboutActitimeLink;
+	@FindBy(linkText="About your actiTIME")
+	WebElement AboutActiTimeLink;
 
-	@FindBy(xpath ="(//span[contains(text(),'actiTIME')])[1]")
-	WebElement prodVersion;
+	@FindBy(xpath="(//span[contains(text(),'actiTIME')])[1]")
+	WebElement productVersion;
 
 	@FindBy(id="aboutPopupCloseButtonId")
 	WebElement closePopUpWindow;
 
+
 	@FindBy(id="logoutLink")
 	WebElement logoutBtn;
+
 
 	public EnterTimeTrackPage(WebDriver driver){
 		PageFactory.initElements(driver, this);
 	}
-
 	public void clickHelpMenu(){
 		helpMenu.click();
 	}
-	public void clickActitimeLink(){
-		aboutActitimeLink.click();
+	public void clickAboutActiTimeLink(){
+		AboutActiTimeLink.click();
 	}
-	public String verifyProductVersion(){
-		return prodVersion.getText();
+	public String getproductVersion(){
+		return	productVersion.getText();	
 	}
-	public void clickCloseWindowButton(){
+	public void clickClosePopup(){
 		closePopUpWindow.click();
 	}
-	public void clickLogOutButton(){
+
+	public void clickLogOut(){
 		logoutBtn.click();
 	}
 }
