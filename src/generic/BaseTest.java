@@ -25,6 +25,7 @@ public class BaseTest implements IAutoConstant {
 	public void openApplication(String browser){
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("window-size=1366,768");
+		options.addArguments("window-size=1366,768");
 		options.addArguments("--disable-notifications");
 		options.addArguments("--disable-geolocation");
 		options.addArguments("--ignore-certificate-errors");
