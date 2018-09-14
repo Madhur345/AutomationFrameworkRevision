@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="170668" started-at="2018-09-01T10:06:52Z" finished-at="2018-09-01T10:09:43Z">
+  <suite name="Suite" duration-ms="172681" started-at="2018-09-06T08:24:44Z" finished-at="2018-09-06T08:27:37Z">
     <groups>
     </groups>
-    <test name="FirefoxTest" duration-ms="143282" started-at="2018-09-01T10:06:52Z" finished-at="2018-09-01T10:09:15Z">
+    <test name="FirefoxTest" duration-ms="156103" started-at="2018-09-06T08:24:44Z" finished-at="2018-09-06T08:27:20Z">
       <class name="scripts.TestValidLogin">
-        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:scripts.TestValidLogin@210366b4]" name="openApplication" is-config="true" duration-ms="23655" started-at="2018-09-01T15:36:52Z" finished-at="2018-09-01T15:37:16Z">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:scripts.TestValidLogin@482bce4f]" name="openApplication" is-config="true" duration-ms="33725" started-at="2018-09-06T13:54:44Z" finished-at="2018-09-06T13:55:18Z">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method status="PASS" signature="testValidLogin()[pri:0, instance:scripts.TestValidLogin@210366b4]" name="testValidLogin" duration-ms="12544" started-at="2018-09-01T15:37:16Z" finished-at="2018-09-01T15:37:28Z">
+        <test-method status="PASS" signature="testValidLogin()[pri:0, instance:scripts.TestValidLogin@482bce4f]" name="testValidLogin" duration-ms="13620" started-at="2018-09-06T13:55:18Z" finished-at="2018-09-06T13:55:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestValidLogin@210366b4]" name="closeApplication" is-config="true" duration-ms="819" started-at="2018-09-01T15:37:28Z" finished-at="2018-09-01T15:37:29Z">
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestValidLogin@482bce4f]" name="closeApplication" is-config="true" duration-ms="615" started-at="2018-09-06T13:55:31Z" finished-at="2018-09-06T13:55:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=TestValidLogin.testValidLogin()[pri:0, instance:scripts.TestValidLogin@210366b4] output={null}]]]>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=TestValidLogin.testValidLogin()[pri:0, instance:scripts.TestValidLogin@482bce4f] output={null}]]]>
               </value>
             </param>
           </params>
@@ -35,7 +35,7 @@
         </test-method> <!-- closeApplication -->
       </class> <!-- scripts.TestValidLogin -->
       <class name="scripts.TestInvalidLogin">
-        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:scripts.TestInvalidLogin@eec5a4a]" name="openApplication" is-config="true" duration-ms="22240" started-at="2018-09-01T15:37:29Z" finished-at="2018-09-01T15:37:51Z">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:scripts.TestInvalidLogin@366647c2]" name="openApplication" is-config="true" duration-ms="19130" started-at="2018-09-06T13:55:32Z" finished-at="2018-09-06T13:55:51Z">
           <params>
             <param index="0">
               <value>
@@ -46,15 +46,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method status="PASS" signature="testInvalid()[pri:0, instance:scripts.TestInvalidLogin@eec5a4a]" name="testInvalid" duration-ms="83660" started-at="2018-09-01T15:37:51Z" finished-at="2018-09-01T15:39:15Z">
+        <test-method status="PASS" signature="testInvalid()[pri:0, instance:scripts.TestInvalidLogin@366647c2]" name="testInvalid" duration-ms="88622" started-at="2018-09-06T13:55:51Z" finished-at="2018-09-06T13:57:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalid -->
-        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestInvalidLogin@eec5a4a]" name="closeApplication" is-config="true" duration-ms="325" started-at="2018-09-01T15:39:15Z" finished-at="2018-09-01T15:39:15Z">
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestInvalidLogin@366647c2]" name="closeApplication" is-config="true" duration-ms="361" started-at="2018-09-06T13:57:20Z" finished-at="2018-09-06T13:57:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testInvalid status=SUCCESS method=TestInvalidLogin.testInvalid()[pri:0, instance:scripts.TestInvalidLogin@eec5a4a] output={null}]]]>
+                <![CDATA[[TestResult name=testInvalid status=SUCCESS method=TestInvalidLogin.testInvalid()[pri:0, instance:scripts.TestInvalidLogin@366647c2] output={null}]]]>
               </value>
             </param>
           </params>
@@ -63,9 +63,9 @@
         </test-method> <!-- closeApplication -->
       </class> <!-- scripts.TestInvalidLogin -->
     </test> <!-- FirefoxTest -->
-    <test name="ChromeTest" duration-ms="170668" started-at="2018-09-01T10:06:52Z" finished-at="2018-09-01T10:09:43Z">
+    <test name="ChromeTest" duration-ms="172681" started-at="2018-09-06T08:24:44Z" finished-at="2018-09-06T08:27:37Z">
       <class name="scripts.TestValidLogin">
-        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:scripts.TestValidLogin@627551fb]" name="openApplication" is-config="true" duration-ms="15302" started-at="2018-09-01T15:36:52Z" finished-at="2018-09-01T15:37:07Z">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:scripts.TestValidLogin@346d61be]" name="openApplication" is-config="true" duration-ms="17741" started-at="2018-09-06T13:54:44Z" finished-at="2018-09-06T13:55:02Z">
           <params>
             <param index="0">
               <value>
@@ -76,15 +76,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method status="PASS" signature="testValidLogin()[pri:0, instance:scripts.TestValidLogin@627551fb]" name="testValidLogin" duration-ms="23873" started-at="2018-09-01T15:37:07Z" finished-at="2018-09-01T15:37:31Z">
+        <test-method status="PASS" signature="testValidLogin()[pri:0, instance:scripts.TestValidLogin@346d61be]" name="testValidLogin" duration-ms="24150" started-at="2018-09-06T13:55:02Z" finished-at="2018-09-06T13:55:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestValidLogin@627551fb]" name="closeApplication" is-config="true" duration-ms="869" started-at="2018-09-01T15:37:31Z" finished-at="2018-09-01T15:37:32Z">
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestValidLogin@346d61be]" name="closeApplication" is-config="true" duration-ms="859" started-at="2018-09-06T13:55:26Z" finished-at="2018-09-06T13:55:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=TestValidLogin.testValidLogin()[pri:0, instance:scripts.TestValidLogin@627551fb] output={null}]]]>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=TestValidLogin.testValidLogin()[pri:0, instance:scripts.TestValidLogin@346d61be] output={null}]]]>
               </value>
             </param>
           </params>
@@ -93,7 +93,7 @@
         </test-method> <!-- closeApplication -->
       </class> <!-- scripts.TestValidLogin -->
       <class name="scripts.TestInvalidLogin">
-        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:scripts.TestInvalidLogin@2b552920]" name="openApplication" is-config="true" duration-ms="16310" started-at="2018-09-01T15:37:32Z" finished-at="2018-09-01T15:37:48Z">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:scripts.TestInvalidLogin@55536d9e]" name="openApplication" is-config="true" duration-ms="14902" started-at="2018-09-06T13:55:27Z" finished-at="2018-09-06T13:55:42Z">
           <params>
             <param index="0">
               <value>
@@ -104,15 +104,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method status="PASS" signature="testInvalid()[pri:0, instance:scripts.TestInvalidLogin@2b552920]" name="testInvalid" duration-ms="113550" started-at="2018-09-01T15:37:48Z" finished-at="2018-09-01T15:39:42Z">
+        <test-method status="PASS" signature="testInvalid()[pri:0, instance:scripts.TestInvalidLogin@55536d9e]" name="testInvalid" duration-ms="114254" started-at="2018-09-06T13:55:42Z" finished-at="2018-09-06T13:57:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalid -->
-        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestInvalidLogin@2b552920]" name="closeApplication" is-config="true" duration-ms="732" started-at="2018-09-01T15:39:42Z" finished-at="2018-09-01T15:39:43Z">
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestInvalidLogin@55536d9e]" name="closeApplication" is-config="true" duration-ms="746" started-at="2018-09-06T13:57:36Z" finished-at="2018-09-06T13:57:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testInvalid status=SUCCESS method=TestInvalidLogin.testInvalid()[pri:0, instance:scripts.TestInvalidLogin@2b552920] output={null}]]]>
+                <![CDATA[[TestResult name=testInvalid status=SUCCESS method=TestInvalidLogin.testInvalid()[pri:0, instance:scripts.TestInvalidLogin@55536d9e] output={null}]]]>
               </value>
             </param>
           </params>

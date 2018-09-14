@@ -1,0 +1,17 @@
+13:56:59.136 [TestNG-tests-2] DEBUG scripts.TestValidLogin - checking for error message
+13:56:59.202 [TestNG-tests-2] INFO  scripts.TestValidLogin - Error message is dispaled
+13:56:59.241 [TestNG-tests-2] INFO  scripts.TestValidLogin - Username or Password is invalid. Please try again.
+13:56:59.241 [TestNG-tests-2] DEBUG scripts.TestValidLogin - Fetching details of username
+13:56:59.267 [TestNG-tests-2] INFO  scripts.TestValidLogin - username fetched
+13:57:00.977 [TestNG-tests-1] DEBUG scripts.TestValidLogin - checking for error message
+13:57:04.755 [TestNG-tests-1] INFO  scripts.TestValidLogin - Error message is dispaled
+13:57:04.779 [TestNG-tests-1] INFO  scripts.TestValidLogin - Username or Password is invalid. Please try again.
+13:57:04.789 [TestNG-tests-1] DEBUG scripts.TestValidLogin - Fetching details of username
+13:57:04.806 [TestNG-tests-1] INFO  scripts.TestValidLogin - username fetched
+13:57:17.659 [TestNG-tests-2] DEBUG scripts.TestValidLogin - checking for error message
+13:57:17.733 [TestNG-tests-2] INFO  scripts.TestValidLogin - Error message is dispaled
+13:57:17.778 [TestNG-tests-2] INFO  scripts.TestValidLogin - Username or Password is invalid. Please try again.
+13:57:17.778 [TestNG-tests-2] DEBUG scripts.TestValidLogin - Fetching details of username
+13:57:17.794 [TestNG-tests-2] INFO  scripts.TestValidLogin - username fetched
+13:57:18.162 [TestNG-tests-1] DEBUG scripts.TestValidLogin - checking for error message
+13:57:20.042 [TestNG-tests-1] INFO  scripts.TestValidLogin - Error message is dispaled

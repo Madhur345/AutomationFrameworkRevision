@@ -1,0 +1,4 @@
+13:57:20.064 [TestNG-tests-1] INFO  scripts.TestValidLogin - Username or Password is invalid. Please try again.
+13:57:36.169 [TestNG-tests-2] DEBUG scripts.TestValidLogin - checking for error message
+13:57:36.233 [TestNG-tests-2] INFO  scripts.TestValidLogin - Error message is dispaled
+13:57:36.263 [TestNG-tests-2] INFO  scripts.TestValidLogin - Username or Password is invalid. Please try again.
